@@ -1,0 +1,10 @@
+[
+ {
+  "name": "g",
+  "script": "g"
+ },
+ {
+  "name": "g",
+  "script": "g\nuu\n\n"
+ }
+]

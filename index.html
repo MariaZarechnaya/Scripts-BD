@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <title>ScriptBD</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <form action="#" class="header__form">
+                <div class="header__form__search-block">   
+                     <input class= "header__form-search-input" type="text" placeholder="Поиск по названию">
+                    <!-- <button  class="header__form-search-button" type="button">Поиск</button> -->
+                </div>
+               
+                    <div class="header__form__change-block">
+                     <input class= "header__form-change-input" type="text" placeholder="Сменить id">
+                    <button  class="header__form-chang-button" type="button">Сменить</button>
+                    </div>
+
+        </header>
+       
+        <main>
+            <div class="content">
+                
+                <div class="header__form__add-block">
+                        <input class= "header__form-input-name" type="text" placeholder="Название" value="">
+                        <!-- <input class= "header__form-input-descript" type="text" placeholder="Скрипт" value=""> -->
+                        <textarea class= "header__form-input-descript" placeholder="Скрипт" name="" id="" cols="30" rows="4"></textarea>
+                        <button  class="header__form-button"type="button">Добавить</button>
+                        <button  class="header__form-button-clear"type="button">Очистить</button>
+                </div>
+            
+
+                <div class="content__list">
+                    <ul class="content__list-list">
+
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+<script  src="./main.js"></script>
+</body>
+</html>
